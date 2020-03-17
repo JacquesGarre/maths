@@ -13,7 +13,7 @@ f'(x) = g'(x) + h'(x)
 f'(x) = g(x)*h'(x) + g'(x)*h(x)
 
 ## f(x) = g(x)/h(x)
-f'(x) = ( g(x)*h'(x) - g'(x)*h(x) ) / h(x)**2
+f'(x) = ( g'(x)*h(x) - g(x)*h'(x) ) / h(x)**2
 
 ## f(x) = g(h(x))
 f'(x) = g'(h(x)) * h'(x)
